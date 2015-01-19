@@ -1,0 +1,262 @@
+/*
+	@author: Yuvraj Singh Babrah;
+	@last edited: 19 Januarty 2015
+	@licence: MIT
+	@demo: http://yuvrajbabrah.host22.com/attt
+*/
+
+html{
+	cursor: default;
+}
+a{
+	color: gray;
+	text-decoration: none;
+}
+.gamepanel{
+	position: relative;
+	width: 800px;
+	height: 780px;
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+.gameboard{
+	width: 400px;
+	width: 380px;
+	height: 381px;
+	background: white;
+	font-size: 10px;
+	color: black;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	-moz-box-shadow: 0px 0px 5px #000;
+	-webkit-box-shadow: 0px 0px 5px #000;
+	box-shadow: 0px 0px 5px #000;
+	border-radius: 15px;
+}
+.scoreboard{
+	float: left;
+	width: 375px;
+	height: 80px;
+	background: white;
+	margin-left: 213px;
+	margin-top: 20px;
+}
+.player1box,.player2box{
+	float: left;
+	width: 178px;
+	height: 70px;
+	background: #EDEDED;
+	margin: 5px 0 0 5px;
+	text-align: center;
+	color: #EDEDED;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: Calibri;
+}
+.player1,.player2{
+	float: left;
+	width: 50px;
+	height: 30px;
+	margin: 20px 0 0 64px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Calibri;
+	font-weight: bold;
+}
+.info{
+	float: left;
+	width: 760px;
+	height: auto;
+	padding: 10px;
+	font-family: 'Quattrocento', serif;
+	background: #EDEDED;
+}
+.level{
+	float: left;
+	width: 780px;
+	height: 70px;
+	/*background: orange url('../data/levelback.png');*/
+	margin: 10px 0 0 10px;
+	-moz-box-shadow: 0px 0px 5px lightgray;
+	-webkit-box-shadow: 0px 0px 5px lightgray;
+	box-shadow: 0px 0px 5px lightgray;
+	border-radius: 15px;
+	color: #EDEDED;
+}
+.levelnum{
+	float: left;
+	width: 200px;
+	height: 60px;
+	font-family: Segoe UI Light;
+	font-size: 50px;
+	margin: 0px 0 0 10px;
+}
+.playerselect,.resultbox{
+	float: left;
+	width: 380px;
+	height: 118px;
+	padding-top: 2px;
+	padding-left: 8px;
+	background: white;
+	margin: 220px 0 0 -2px;
+}
+.playerselecttext{
+	width: 170px;
+	height: 30px;
+	margin: 0px 0 0 5px;
+	font-family: 'Quattrocento', serif;
+	font-size: 18px;
+	color: gray;
+}
+.option{
+	float: left;
+	width: 150px;
+	height: 75px;
+}
+.opt1,.opt2{
+	float: left;
+	width: 170px;
+	height: 70px;
+	margin: 5px 0 0 5px;
+	/*opacity: 0.8;*/
+	font-size: 0px;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 0px 5px #000;
+	-webkit-box-shadow: 0px 0px 5px #000;
+	box-shadow: 0px 0px 5px #000;
+	cursor: pointer;
+}
+.declare{
+	float: left;
+	width: 190px;
+	height: 40px;
+	/*margin: 30px 0 0 15px;*/
+	font-family: 'Quattrocento', serif;
+	font-size: 20px;
+	color: #EDEDED;
+}
+.reload{
+	float: left;
+	width: 80px;
+	height: 100px;
+	background: url('../data/reload.png') 50% 50% no-repeat;
+	margin: 5px 0 0 96px;
+	cursor: pointer;
+}
+.continue{
+	float: left;
+	width: 80px;
+	height: 100px;
+	background: url('../data/continue.png') 50% 50% no-repeat;
+	margin: 5px 0 0 5px;
+	cursor: pointer;
+}
+.next{
+	float: right;
+	width: 60px;
+	height: 60px;
+	margin: 0px 5px 0 0;
+	background: url('../data/next.png') 50% 50% no-repeat;
+}
+.back{
+	float: right;
+	width: 32px;
+	height: 32px;
+	margin: 35px -12px 0 0;
+	background: url('../data/back.png') 50% 50% no-repeat;
+}
+.winbar{
+	float: left;
+	width: 365px;
+	height: 2px;
+	margin: 13px 0 -10px 218px;
+}
+.win1,.win2{
+	/*width: 187px;*/
+	height: 2px;
+}
+.smalltext{
+	float: left;
+	width: 375px;
+	height: 20px;
+	margin: 15px 0 0 213px;
+	text-align: center;
+	font-family: Calibri;
+	font-weight: bold;
+	font-family: 'Quattrocento', serif;
+	color: gray;
+}
+.leftpanel{
+	position: absolute;
+	width: 200px;
+	height: 220px;
+	background: black url('../data/htmlback.jpg');
+	margin-top: -220px;
+	margin-left: auto;
+	margin-right: auto;
+	/*margin: 5px 0 0 0;/*-215px;*/
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	z-index: +1;
+	-moz-box-shadow: 5px 5px 5px #000;
+	-webkit-box-shadow: 5px 5px 5px #000;
+	box-shadow: 5px 5px 5px #000;
+}
+.leftpaneltext{
+	float: left;
+	width: 170px;
+	height: 40px;
+	margin: 10px 0 0 15px;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+}
+.slab{
+	float: left;
+	width: 200px;
+	height: 36px;
+	background: rgb(64,51,125);
+	background: black;
+	font-family: Segoe UI Light;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.lefttext{
+	float: left;
+	width: 150px;
+	height: 32px;
+	margin: 2px 0 0 5px;
+	color: #EDEDED;
+}
+.tick{
+	float: right;
+	width: 32px;
+	height: 32px;
+	margin: 2px 10px 0 0;
+	opacity: 0.8;
+	filter: alpha(opacity=80); 
+}
+.disclaimer{
+	position: absolute;
+	width: 800px;
+	height: 15px;
+	bottom: 5px;
+	font-family: calibri;
+	font-size: 12px;
+}
+.content{
+	width: 380px;
+	height: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #EDEDED;
+	text-align: center;
+}
