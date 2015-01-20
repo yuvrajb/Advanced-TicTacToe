@@ -26,8 +26,6 @@ Important
 
 The JQuery library must be included before "advanced-xo.js" file.
 
-Yuvraj Singh Babrah
-
 
 Demo
 ====================================================
