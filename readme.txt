@@ -18,7 +18,7 @@ https://twitter.com/yuvrajb
 https://in.linkedin.com/in/yuvrajbabrah
 http://www.github.com/yuvrajb
 http://www.codeplex.com/site/users/view/yuvrajb
-http://www.softpedia.com/developer/Yuvraj-Singh-Babrah-97438.html
+http://www.softpedia.com/publisher/Yuvraj-Singh-Babrah-97438.html
 
 
 Important
