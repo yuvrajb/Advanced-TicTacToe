@@ -29,14 +29,13 @@ The JQuery library must be included before "advanced-xo.js" file.
 Yuvraj Singh Babrah
 
 
-
-DEMO
+Demo
 ====================================================
 
 http://yuvrajbabrah.host22.com/attt
 
-REQUIREMENTS
+
+Requirements
 ====================================================
 
 Any modern web browser will do.
-
